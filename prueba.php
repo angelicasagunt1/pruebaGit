@@ -2,7 +2,19 @@
 
 $password = "Prueba12345";
 
-$hash = password_hash($password, PASSWORD_BCRYPT);
+function jesus(){
+
+return 'hola';
+
+
+
+
+
+
+
+
+}
+    $hash = password_hash($password, PASSWORD_BCRYPT);
 
 echo "La contraseña encriptada es: {$hash}";
 
