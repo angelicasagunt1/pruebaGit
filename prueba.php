@@ -1,6 +1,6 @@
 <?php
 
-$password = "Prueba1234";
+$password = "Prueba12345";
 
 $hash = password_hash($password, PASSWORD_BCRYPT);
 
