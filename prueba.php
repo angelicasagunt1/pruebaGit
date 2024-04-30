@@ -1,8 +1,8 @@
 <?php
 
-$Password = "Prueba12345";
+$password = "Prueba12345";
 
-    $hash = password_hash($Password, PASSWORD_BCRYPT);
+    $hash = password_hash($password, PASSWORD_BCRYPT);
 
 echo "La contraseña encriptada es: {$hash}";
 
